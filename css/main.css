@@ -81,10 +81,11 @@ body{
 
 
 .projects, img {
-   border: 1px solid #ddd;
+   /* border: 1px solid #ddd; */
    border-radius: 4px;
    padding: 5px;
    width: 150px;
+   height: 100px;
   }
 
 .projects, p {
