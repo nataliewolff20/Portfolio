@@ -1,0 +1,101 @@
+
+@font-face {
+  font-family: Range;
+  src: url(/fonts/Range.otf);
+}
+
+@font-face {
+  font-family: 'AmaticSC-Regular';
+  src: url(AmaticSC-Regular.ttf)
+}
+
+body{
+  background-color: #D9C7BB;
+  margin: 0;
+  font-family:'AmaticSC-Regular';
+
+}
+
+.topnav {
+  background-color: brown;
+  overflow:hidden;
+}
+
+.topnav a{
+  text-align: center;
+  padding: 20px 20px;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.topnav a:hover{
+  color: white;
+  background-color: gray;
+}
+
+.topnav a:active {
+  background-color: white;
+  color: gray;
+}
+
+.header-text > h1 {
+
+  font-size: 46px;
+  color: brown;
+}
+
+.header-text > p {
+  font-size: 25px;
+  color: gray;
+}
+
+
+.header-img {
+  background-image: url('https://i.imgur.com/g3iZIZB.jpg');
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: relative;
+  height: 420px;
+}
+
+.header-text {
+    text-align: right;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+
+}
+
+.projects {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 80%;
+  margin: 0 auto;
+  align-self: center;
+
+}
+
+
+.projects, img {
+   border: 1px solid #ddd;
+   border-radius: 4px;
+   padding: 5px;
+   width: 150px;
+  }
+
+.projects, p {
+  color: black;
+  font-size: 22px;
+}
+
+  .projects, a {
+    text-decoration: none;
+    color: black;
+  }
+  .projects, a:hover{
+    color: gray;
+  }
