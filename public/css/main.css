@@ -15,7 +15,7 @@
 } */
 body{
   background-color: #D9C7BB;
-  width: 90%;
+  width: 100%;
   font-family:'AmaticSC-Regular';
 
 }
@@ -69,6 +69,7 @@ body{
   background-size: contain;
   position: relative;
   height: 420px;
+  padding: 0;
 }
 
 .projects {
