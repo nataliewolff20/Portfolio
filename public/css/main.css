@@ -9,23 +9,27 @@
   src: url(AmaticSC-Regular.ttf)
 }
 
+/* .container{
+  border: solid black 2px;
+  width: 100%;
+} */
 body{
   background-color: #D9C7BB;
-  margin: 0;
+  width: 90%;
   font-family:'AmaticSC-Regular';
 
 }
 
 .topnav {
   background-color: brown;
-  overflow:hidden;
+  overflow: hidden;
 }
 
 .topnav a{
   text-align: center;
   padding: 20px 20px;
   text-decoration: none;
-  font-size: 20px;
+  font-size: 26px;
 }
 
 .topnav a:hover{
@@ -37,6 +41,10 @@ body{
   background-color: white;
   color: gray;
 }
+.header {
+  position: relative;
+
+}
 
 .header-text > h1 {
 
@@ -44,9 +52,13 @@ body{
   color: brown;
 }
 
-.header-text > p {
-  font-size: 25px;
+ .header-text > p {
+  font-size: 32px;
   color: gray;
+  padding-left: 50px;
+  text-align: right;
+  top: 50%;
+  left: 50%;
 }
 
 
@@ -57,16 +69,6 @@ body{
   background-size: contain;
   position: relative;
   height: 420px;
-}
-
-.header-text {
-    text-align: right;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: white;
-
 }
 
 .projects {
@@ -82,10 +84,10 @@ body{
 
 .projects, img {
    /* border: 1px solid #ddd; */
-   border-radius: 4px;
+   border-radius: 2px;
    padding: 5px;
-   width: 150px;
-   height: 100px;
+   width: 200px;
+   height: 150px;
   }
 
 .projects, p {
