@@ -104,3 +104,8 @@ body{
   .projects, a:hover{
     color: gray;
   }
+
+
+.about, a {
+  color: white;
+}
